@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>weather</title>
+</head>
+	<body>
+		<div class="wrapper">
+			<main class="app">
+				<div class="app__container _container">
+					<div class="app__cotent">
+						<h1>Weather</h1>
+						<form class="app__form">
+							<input type="text" placeholder="Enter city">
+							<button>Show</button>
+						</form>
+						<div class="app__error">Lorem ipsum dolor sit amet.</div>
+						<div class="app__resultat resultat">
+							<div class="resultat__header">
+								<h2></h2>
+								<img class="resultat__img" src="" alt="">
+							</div>
+							<div class="resultat__content">
+								<div class="resultat__date">Today, 12 September</div>
+								<div class="resultat__temp"><span>29</span>℃</div>
+								<div class="resultat__condition">Cloudy</div>
+								<ul class="resultat__lists">
+									<li class="resultat__list">
+										<p id="wind">Wind</p>
+										<p id="hum">Hum</p>
+									</li>
+									<li class="resultat__list">
+										<p>10 km/h</p>
+										<p>54 %</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="js/app.min.js"></script>
+	</body>
+</html>
